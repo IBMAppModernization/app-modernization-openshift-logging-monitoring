@@ -181,7 +181,7 @@ Since the figure reflects the 5 minute load average, it will take just a little 
 
 If you wait a few minutes and check grafana again it will look like:
 
-![Load test complete](images/loadTestComplete)
+![Load test complete](images/loadTestComplete.png)
 
 ## Summary
 
