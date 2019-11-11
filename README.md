@@ -181,10 +181,8 @@ Since the figure reflects the 5 minute load average, it will take just a little 
 
 If you wait a few minutes and check grafana again it will look like:
 
+![Load test complete](images/loadTestComplete)
 
+## Summary
 
-
-
-
-
-
+In this lab you have explored access to log output from applications using Kubernetes / OpenShift CLI tooling and also the web browser UI for OpenShift. After that you set up a custom query in Prometheus and observed CPU utilization changes caused by a simulated load on an application component. Then, you saw how to use Grafana and a set of included dashboards to be able to monitor the state of an OpenShift cluster.
