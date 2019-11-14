@@ -145,7 +145,7 @@ pod_name:container_cpu_usage:sum{namespace="mcsvcs-userNNN"} > 0.05
 Click on the **Execute** button again. Probably all of the pods will disappear. It's time to generate some load. Switch to a browser tab with the cloud shell and run these commands. **Note** update "Client2" if you used a different name when testing the StockTrader Lite application.
 
 ```text
-export TRADE_HISTORY_URL=$(oc get route trade-history | awk '/trade.*/ {print $2 $3 "/Client2"}')
+export TRADE_HISTORY_URL=$(oc get route trade-history | awk '/trade.*/ {print $2 $3 "/trades/Client2"}')
 while sleep 0.5; do curl -s $TRADE_HISTORY_URL ; done
 ```
 
